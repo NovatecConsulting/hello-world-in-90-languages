@@ -1,7 +1,7 @@
 # "Hello World" in 90 Languages
 
 ## Challenge
-Choose a language and write a Programm that listens on port `8080` and answers the a specific `HTTP` request with a speciifed response.
+Choose a language and write a Programm that listens on port `8080` and answers the specific `HTTP` request with the specified response.
 
 ### Test #1
 
