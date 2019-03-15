@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-express",
+  "version": "1.0.0",
+  "description": "Hello World implementation in NodeJS using Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nt-ca-aqe/hello-world-in-90-languages.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "HelloWorld"
+  ],
+  "author": "Dorian Weidler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nt-ca-aqe/hello-world-in-90-languages/issues"
+  },
+  "homepage": "https://github.com/nt-ca-aqe/hello-world-in-90-languages#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
