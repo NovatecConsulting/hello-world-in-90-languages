@@ -1,0 +1,15 @@
+[package]
+name = "hello-world-rust"
+version = "0.1.0"
+authors = ["Timo Freiberg <timo.freiberg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.0"
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0"
+
+[dependencies.rocket_contrib]
+version = "0.4.0"
+default-features = false
+features = ["json"]
