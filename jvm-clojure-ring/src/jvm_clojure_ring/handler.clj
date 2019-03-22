@@ -1,10 +1,12 @@
 (ns jvm-clojure-ring.handler
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
-            [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
+            [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
+            [ring.util.json-response :refer [json-response]]))
 
 (defroutes app-routes
-  (ANY "/say-hello" request (str "Hello " (get-in request [:query-params "name"] "World") "!"))
+  (ANY "/say-hello" request
+    (json-response {:message (str "Hello " (get-in request [:query-params "name"] "World") "!")}))
   (route/not-found "Not Found"))
 
 (def app
