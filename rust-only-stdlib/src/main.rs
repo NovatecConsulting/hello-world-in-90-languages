@@ -49,8 +49,7 @@ Content-Type: application/json
 Date: {}
 Content-Length: {}
 
-{}
-",
+{}",
         timestamp, content_length, response_body
     );
     println!(
