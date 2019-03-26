@@ -11,7 +11,7 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.get('/say-hello', (req, res) => {
+app.post('/say-hello', (req, res) => {
     res.statusCode = HTTP_STATUS_OK;
     res.send({message: `Hello ${req.query.name || 'World'}!`});
 });
