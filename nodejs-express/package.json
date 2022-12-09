@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/nt-ca-aqe/hello-world-in-90-languages#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   }
 }
